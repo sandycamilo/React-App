@@ -1,0 +1,20 @@
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: tomato;
+  color: #fff;
+  font-size: 100px;
+}
+
+.Title-Subtitle {
+  position: relative;
+  top: 30px;
+  left: -20%;
+  font-size: 20px;
+ 
+}

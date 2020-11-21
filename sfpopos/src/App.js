@@ -1,4 +1,4 @@
-// react library
+// react library- for creating user interfaces
 // files stored in node_modules folder do not begin w ./ ~ files imported from a dependency 
 import React from 'react'; 
 // logo image
@@ -6,26 +6,17 @@ import React from 'react';
 import logo from './logo.svg'; 
 // app code
 import './App.css';
+// importing default from Title.js to use the component in App.js
+import Title from './Title';
 
 
 // JSX is an extension of JS language that generates HTML 
+// component has no child components so we use the self closing tag '/>'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Title / >
+      <img src = 'logo.svg' alt= 'logo' / >
     </div>
   );
 }
