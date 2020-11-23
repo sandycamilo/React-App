@@ -8,3 +8,22 @@
   width: 100%; /* sets width of img tage with div to 100% of available space */
   height: auto; /* makes images maintain their aspect ratio as they scale */
 }
+
+.hours {
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(73, 73, 108);
+  font-style: italic;
+}
+
+.address { 
+  padding: 10px;
+  font-size: 18px;
+  color: rgb(82, 78, 78);
+
+}
+
+.title {
+  font-size: 25px;
+  color: rgb(240, 49, 15);
+}
