@@ -8,8 +8,9 @@ import logo from './logo.svg';
 import './App.css';
 // importing default from Title.js to use the component in App.js
 import Title from './Title';
-
 import POPOList from './POPOList';
+import Footer from './Footer';
+
 
 
 // JSX is an extension of JS language that generates HTML 
@@ -23,7 +24,9 @@ function App() {
       </div>
       {/* <img src= {logo} alt= 'logo' / > */}
       <POPOList />
+      <Footer />
     </div>
+    
   );
 }
 

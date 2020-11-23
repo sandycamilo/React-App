@@ -1,0 +1,7 @@
+.POPOSList {
+  width: calc(100% - 80px); /* width of element is 100% minues 80px */
+  margin: auto; /* auto -the browser will make the margins equal on both sides - 40px on left and the rigt ~ equals to 80px total */
+  display: grid; /* display spaces in a grid */
+  grid-template-columns: 1fr 1fr 1fr; /* give grid three template columns ~ 1fr represents a fraction of the space available */
+  grid-gap: 40px; /* set gap between columns to 40px */
+}

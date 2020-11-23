@@ -1,0 +1,10 @@
+/* styles start to make page responsive */
+.POPOSSpace {
+  width: 100%; /* expands width of its grid cell - cells expand and contract with the window */
+  text-align: center;
+}
+
+.POPOSSpace > img {
+  width: 100%; /* sets width of img tage with div to 100% of available space */
+  height: auto; /* makes images maintain their aspect ratio as they scale */
+}
