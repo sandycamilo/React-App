@@ -10,19 +10,21 @@ import './App.css';
 import Title from './Title';
 import POPOList from './POPOList';
 import Footer from './Footer';
+import { HashRouter as Router, Route } from 'react-router-dom';
+import About from './About';
 
 // JSX is an extension of JS language that generates HTML 
 // component has no child components so we use the self closing tag '/>'
 function App() {
   return (
-    <div className="App">
-      <Title / >
-      {/* <div class= "subs"> 
-        <h1>keep your eyes peeled...</h1>
-      </div> */}
-      <POPOList />
-      <Footer />
-    </div> 
+    <Router>
+      <div className="App">
+        <Title / >
+        <Route exact path="/" component={POPOList} />
+        <Route path="/about" component={About} />
+        <Footer />
+      </div> 
+    </Router>
   );
 }
 

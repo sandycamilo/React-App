@@ -1,5 +1,5 @@
 .Footer {
-  width: 100%;
+  width: 100% - 100px;
   text-align: center;
   padding: 50px;
   font-size: 9px;

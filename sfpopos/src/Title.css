@@ -8,18 +8,34 @@
   margin-bottom: 2em;
   background-color: tomato;
   color: white;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
 }
 
-.Title > h1 {
-  font-size: 120px;
+.sftitle {
+  font-size: 100px;
   position: relative;
-  left: 12%;
+  left: 10%;
 }
 
 .Title-Subtitle {
   position: relative;
-  top: 44px;
-  left: -6%;
+  top: -65px;
+  left: 21%;
   font-size: 15px;
 }
+
+.home, .about {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0.3em 4em;
+  color: rgb(228, 60, 30);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 26px;
+  position: relative;
+  top: -10px;
+  left: 40px;
+  border-radius: 12px;
+  border: none;
+}
+

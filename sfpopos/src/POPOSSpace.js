@@ -1,8 +1,9 @@
 import React from 'react';
 import './POPOSSpace.css';
+import LikeCount from './LikeCount';
 
 function POPOSSpace(props) { // components take a paramenter called, props. props is always an object (has properties - props.name, props.image, etc...) ~ it allows you to configure components
-  const { name, image, address, likes, hours} = props
+  const { name, image, address, hours} = props
   return (
     <div>
       <h1 class="title">{name}</h1>
@@ -13,9 +14,10 @@ function POPOSSpace(props) { // components take a paramenter called, props. prop
         alt="50 California St." 
       />
       <div class="address">{address}</div>
-      <div>{likes}</div>
       <div class= "hours">{hours}</div>
+      <LikeCount />
     </div>
+    
   )
 }
 

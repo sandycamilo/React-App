@@ -1,18 +1,28 @@
-// import React from 'react';
-// // import './LikeCount.css';
-// import POPOSSpace from './POPOSSpace.css';
+import React, {Component} from 'react';
+import './LikeCount.css';
 
-// class LikeCount extends Component { 
-//       state = {
-//         count: 0
-//       };
-//       handleClick = () => {
-//         this.setState(({ count }) => ({
-//           count: count + 1
-//         }));
-//       };
-//       render() {
-//         return <button onClick={this.handleClick}>{this.state.count}</button>;
-//       }
-//     }
-// export default LikeCount
+class LikeCount extends Component { 
+  constructor(props) {
+    super(props)
+    this.state= { likes: 0 }
+  }
+
+  increment() {
+    this.setState({ likes: this.state.likes + 1 })
+  }
+
+  render() {
+    return (
+      <div>
+        {/* <h1>{this.state.likes}</h1> */}
+        <button class= "like" onClick={ (e) => {
+        this.increment()
+        }}> ❤️ {this.state.likes}
+        </button>
+      </div>
+      )
+    }
+  }
+
+
+export default LikeCount
