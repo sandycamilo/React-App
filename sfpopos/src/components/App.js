@@ -5,13 +5,13 @@ import React from 'react';
 // Files you create, that are stored locally will always begin with ./ 
 // import logo from './logo.svg'; 
 // app code
-import './App.css';
+import './App.css'
 // importing default from Title.js to use the component in App.js
-import Title from './Title/Title';
-import POPOList from './POPOSList/POPOList';
-import Footer from './Footer/Footer';
-import { HashRouter as Router, Route } from 'react-router-dom';
-import About from './About/About';
+import Title from './Title/Title'
+import POPOList from './POPOSList/POPOList'
+import Footer from './Footer/Footer'
+import { HashRouter as Router, Route } from 'react-router-dom'
+import About from './About/About'
 import POPOSDetails from './POPOSDetails/POPOSDetails'
 
 // JSX is an extension of JS language that generates HTML 

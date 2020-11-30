@@ -1,8 +1,10 @@
 import React from 'react';
-import POPOSSpace from '../POPOSSpace';
-import './POPOSList.css';
+
+import POPOSSpace from '../POPOSSpace/POPOSSpace'
+import './POPOSList.css'
+
 // load JSON data in POPOSList component 
-import data from '../sfpopos-data.json'
+import data from '../../sfpopos-data.json'
 
 function POPOList() {
   // map is used to transform an array to another type 
