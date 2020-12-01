@@ -14,13 +14,13 @@
 .sftitle {
   font-size: 100px;
   position: relative;
-  left: 10%;
+  left: 3%;
 }
 
 .Title-Subtitle {
   position: relative;
   top: -65px;
-  left: 21%;
+  left: 13%;
   font-size: 15px;
 }
 
@@ -34,7 +34,7 @@
   font-size: 26px;
   position: relative;
   top: -10px;
-  left: 40px;
+  left: 10px;
   border-radius: 12px;
   border: none;
 }
