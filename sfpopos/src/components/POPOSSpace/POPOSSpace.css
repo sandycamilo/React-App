@@ -2,8 +2,44 @@
 .POPOSSpace {
   width: 100%; /* expands width of its grid cell - cells expand and contract with the window */
   text-align: center;
+  /* set the position property of the parent element to relative */
+  /* positioning context for any children that use absolute position */
+  position: relative;
 }
 
+.POPOSSpace .title {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 25px;
+  color: rgb(240, 49, 15);
+  text-decoration: none;
+}
+
+.POPOSSpace h1 {
+  margin: 0;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.POPOSSpace .POPOSSpace-info {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+
+/* selector applied to the two child divs  */
+.POPOSSpace .POPOSSpace-info div {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  background-color: aliceblue;
+}
+
+/* ancestor selector */
 .POPOSSpace > img {
   width: 100%; /* sets width of img tage with div to 100% of available space */
   height: auto; /* makes images maintain their aspect ratio as they scale */
@@ -23,7 +59,3 @@
 
 }
 
-.title {
-  font-size: 25px;
-  color: rgb(240, 49, 15);
-}

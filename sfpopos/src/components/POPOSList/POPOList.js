@@ -22,7 +22,7 @@ function POPOList() {
         address={address}
         image={images[0]}
         hours={hours}
-      />  
+      />
     )
   })
     return (

@@ -1,7 +1,12 @@
 .aboutSF {
   font-size: 28px;
   position: relative;
-  left: 43px;
+  left: 30%;
+  display: grid; /* display spaces in a grid */
+  grid-template-columns: 1fr 1fr 1fr; /* give grid three template columns ~ 1fr represents a fraction of the space available */
+  grid-gap: 2em;
+  padding: 2em;
+  max-width: 1000px;
 }
 
 .pSF {
@@ -9,7 +14,22 @@
   width: 500px;
   height: 400px;
   position: relative;
-  left: 38%;
-  top: 30px;
+  left: 19%;
+  top: 2px;
 
+}
+
+/* media querie to make adjustments for smaller screens like tablets and mobile */
+@media only screen and (max-width: 960px) {
+  .POPOSList {
+    /* the number of columns if changed to two equal columns when the screen is 960px or smaller */
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* small screen mobile */
+@media only screen and (max-width: 700px) {
+  .POPOSList {
+    grid-template-columns: 1fr 1fr;
+  }
 }
