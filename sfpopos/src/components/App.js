@@ -1,6 +1,6 @@
 // react library- for creating user interfaces
 // files stored in node_modules folder do not begin w ./ ~ files imported from a dependency 
-import React from 'react'; 
+import React from 'react'
 // logo image
 // Files you create, that are stored locally will always begin with ./ 
 // import logo from './logo.svg'; 
@@ -29,6 +29,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;

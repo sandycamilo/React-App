@@ -23,3 +23,29 @@
     grid-template-columns: 1fr;
   }
 }
+
+.POPOSList form {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  left: -20px;
+  top: 120px;
+}
+
+.POPOSList form input, .POPOSList form button {
+  padding: 0.5em;
+  margin: 0;
+  border: 1px solid;
+  font-size: 1;
+}
+
+.POPOSList form input {
+  flex: 2;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.POPOSList form button {
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}

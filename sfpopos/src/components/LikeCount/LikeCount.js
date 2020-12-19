@@ -1,16 +1,14 @@
-import React, {Component} from 'react';
-import './LikeCount.css';
+import React, {Component} from 'react'
+import './LikeCount.css'
 
 class LikeCount extends Component { 
   constructor(props) {
     super(props)
     this.state= { likes: 0 }
   }
-
   increment() {
     this.setState({ likes: this.state.likes + 1 })
   }
-
   render() {
     return (
       <div>
@@ -23,6 +21,5 @@ class LikeCount extends Component {
       )
     }
   }
-
 
 export default LikeCount
