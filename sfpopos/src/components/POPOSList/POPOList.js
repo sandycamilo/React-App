@@ -31,15 +31,16 @@ function POPOList() {
   })
     return (
       <div className="POPOSList">
-        {/* input field for the search feature. */}
-        <form>
-            <input 
-                value={query} /*  holds the value you entered into the field */
-                placeholder="search"
-                onChange={(e) => setQuery(e.target.value)}
-            />
-            <button type="submit">Submit</button>
-        </form>
+          <div className="POPOList-Search">
+          <form>
+              <input 
+                  value={query} /*  holds the value you entered into the field */
+                  placeholder="search"
+                  onChange={(e) => setQuery(e.target.value)}
+              />
+              <button type="submit">Submit</button>
+          </form>
+          </div>
         {spaces}
       </div>
   )
