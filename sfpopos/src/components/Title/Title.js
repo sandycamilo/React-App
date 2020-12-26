@@ -1,6 +1,7 @@
 import React from 'react' // react must be in scope when using JSX - always import in every component you create
 import './Title.css' // import css file
 import { NavLink } from 'react-router-dom' //component that sets the address to navigate to in our browser's URL bar
+import RandomSpace from '../RandomSpace/RandomSpace'
 
 function Title() {
   return (
@@ -20,6 +21,7 @@ function Title() {
         About
         </button>
         </NavLink>
+        <RandomSpace />
       </div>
       </header>
     </div>
