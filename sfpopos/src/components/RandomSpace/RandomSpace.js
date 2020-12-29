@@ -6,12 +6,12 @@ import data from '../../sfpopos-data.json' // to know the length of the list.
 function RandomSpace() {
     const history = useHistory()
   return (
-        <button onClick={(e) => {
+        <button class="randomspace" onClick={(e) => {
           // run code here when clicked'
           // gets a random number from 0 to the length - 1 
             const id = Math.floor(Math.random() * data.length)
             history.push(`/details/${id}`)
-        }}>Show me a random space</button>
+        }}>Random Space</button>
   )
 }
 

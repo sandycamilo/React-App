@@ -1,0 +1,14 @@
+.randomspace {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  padding: 0.3em 4em;
+  color: rgb(228, 60, 30);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 26px;
+  position: relative;
+  top: -10px;
+  left: 10px;
+  border-radius: 12px;
+  border: none;
+}
