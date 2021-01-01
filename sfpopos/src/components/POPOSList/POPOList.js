@@ -41,7 +41,7 @@ function POPOList() {
               <button type="submit">Submit</button>
           </form>
           </div>
-        {spaces}
+          {spaces}
       </div>
   )
 }

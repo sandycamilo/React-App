@@ -1,7 +1,7 @@
 .aboutSF {
-  font-size: 28px;
+  font-size: 30px;
   position: relative;
-  left: 30%;
+  left: 39%;
   display: grid; /* display spaces in a grid */
   grid-template-columns: 1fr 1fr 1fr; /* give grid three template columns ~ 1fr represents a fraction of the space available */
   grid-gap: 2em;
@@ -10,13 +10,13 @@
 }
 
 .pSF {
-  font-size: 22px;
-  width: 500px;
+  font-size: 23px;
+  width: 800px;
   height: 400px;
   position: relative;
-  left: 19%;
-  top: 2px;
-
+  left: 28%;
+  top: -30px;
+  line-height: 1.5em;
 }
 
 /* media querie to make adjustments for smaller screens like tablets and mobile */
