@@ -2,6 +2,7 @@ import React from 'react'
 import './POPOSDetails.css'
 import data from '../../sfpopos-data.js'
 
+// random space button 
 function POPOSDetails(props) {
   const { id } = props.match.params //Location index ~ defined variable id and set value to props.match.params
   const { images, title, desc, hours, features, geo } = data[id] //using id to get data for location at the index

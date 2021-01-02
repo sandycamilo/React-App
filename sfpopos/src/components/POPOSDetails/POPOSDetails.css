@@ -1,3 +1,5 @@
+/* random space button */
+
 .POPOSDetails {
   display: flex;
   flex-direction: row-reverse; /* given row-reverse to move the information to the left and the picture to the right ~image came first in the html */
@@ -9,13 +11,14 @@
   flex: 1;
   text-align: left;
   padding: 0 1em;
-  background-color: cadetblue;
+  background-color: rgb(227, 238, 238);
 }
 
 .POPOSDetails .POPOSDetails-title {
   font-size: 2.5em;
+  color: rgb(4, 21, 89);
   margin: 0;
-  background-color: cadetblue;
+  background-color: rgb(47, 157, 167);
 }
 
 .POPOSDetails .POPOSDetails-image {

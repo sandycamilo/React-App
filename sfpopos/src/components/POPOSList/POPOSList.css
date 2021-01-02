@@ -24,13 +24,13 @@
   }
 }
 
-.POPOList-Search {
+/* .POPOList-Search {
   display: flex;
   flex-direction: column;
   position: relative;
   top: -200px;
   left: 450px;
-}
+} */
 
 .POPOSList form {
   display: flex;

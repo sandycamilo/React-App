@@ -31,17 +31,17 @@ function POPOList() {
   })
     return (
       <div className="POPOSList">
-          <div className="POPOList-Search">
+          {/* <div className="POPOList-Search"> */}
           <form>
               <input 
-                  value={query} /*  holds the value you entered into the field */
-                  placeholder="search"
-                  onChange={(e) => setQuery(e.target.value)}
+                value={query} /*  holds the value you entered into the field */
+                placeholder="search"
+                onChange={(e) => setQuery(e.target.value)}
               />
               <button type="submit">Submit</button>
           </form>
-          </div>
           {spaces}
+          {/* </div> */}
       </div>
   )
 }
